@@ -33,7 +33,7 @@ Starting the component will create a `:db` key:
 
 ## Using with repositories
 
-Given an example repository protocol:
+An example repository protocol:
 
 ```clojure
 (defprotocol Repository
@@ -41,7 +41,9 @@ Given an example repository protocol:
   (save [repo object]))
 ```
 
-Could be implemented as:
+Could be implemented with [system][] as:
+
+[system]: https://github.com/danielsz/system
 
 ```clojure
 (defrecord MongoRepositoryComponent [mongo-db]
