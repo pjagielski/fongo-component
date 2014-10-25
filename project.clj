@@ -1,4 +1,4 @@
-(defproject fongo-component "0.1.0-SNAPSHOT"
+(defproject fongo-component "0.1.0"
   :description "A fake MongoDB component for testing"
   :url "http://github.com/pjagielski/fongo-component"
   :license {:name "Eclipse Public License"
