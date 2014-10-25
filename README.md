@@ -3,7 +3,7 @@
 A [component][] using [fongo][] as in-memory mock of MongoDB. Useful for unit testing Mongo-dependant components (eg. repositories). Compatible with mongo-component from [system][].
 
 [component]: https://github.com/stuartsierra/component
-[fongo]: https://github.com/foursquare/fongo
+[fongo]: https://github.com/fakemongo/fongo
 [system]: https://github.com/danielsz/system
 
 ## Installation
