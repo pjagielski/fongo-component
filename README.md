@@ -10,9 +10,7 @@ A [component][] using [fongo][] as in-memory mock of MongoDB. Useful for unit te
 
 Add the following dependency to your project.clj file:
 
-```clojure
-[fongo-component "0.1.0"]
-```
+[![Clojars Project](http://clojars.org/fongo-component/latest-version.svg)](http://clojars.org/fongo-component)
 
 ## Usage
 
