@@ -7,4 +7,5 @@
                  [com.stuartsierra/component "0.2.2"]
                  [com.novemberain/monger "2.0.0"]
                  [com.github.fakemongo/fongo "1.5.5"]
-                 [org.slf4j/slf4j-api "1.7.7"]])
+                 [org.slf4j/slf4j-api "1.7.7"]]
+  :plugins [[lein-cloverage "1.0.2"]])
