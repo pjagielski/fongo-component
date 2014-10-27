@@ -1,0 +1,2 @@
+after_script:
+  - bash -ex test/coveralls.sh
