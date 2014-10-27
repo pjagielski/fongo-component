@@ -1,0 +1,3 @@
+test:
+  post:
+    - bash coveralls.sh
