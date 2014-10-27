@@ -2,6 +2,9 @@
 
 A [component][] using [fongo][] as in-memory mock of MongoDB. Useful for unit testing Mongo-dependant components (eg. repositories). Compatible with mongo-component from [system][].
 
+[![Build Status](http://img.shields.io/travis/pjagielski/fongo-component.svg?style=flat-square)](http://img.shields.io/travis/pjagielski/fongo-component.svg?style=flat-square)
+[![Coverage](http://img.shields.io/coveralls/pjagielski/fongo-component.svg?style=flat-square)](http://img.shields.io/coveralls/pjagielski/fongo-component.svg?style=flat-square)
+
 [component]: https://github.com/stuartsierra/component
 [fongo]: https://github.com/fakemongo/fongo
 [system]: https://github.com/danielsz/system
