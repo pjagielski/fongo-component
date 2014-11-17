@@ -58,12 +58,10 @@ Could be implemented with [system][] as:
     (println ";; Stopping MongoRepositoryComponent"))
 
   (find-by-id [repo id]
-    (let [db (:db mongo-db)]
-      (mc/find-one-as-map (:db mongo-db) "documents" {:_id (ObjectId. id)})))
+    (mc/find-one-as-map (:db mongo-db) "documents" {:_id (ObjectId. id)}))
 
   (save [repo object]
-    (let [db (:db mongo-db)]
-      (mc/insert-and-return (:db mongo-db) "documents" object))))
+    (mc/insert-and-return (:db mongo-db) "documents" object)))
 
 (defn mongo-repo-component []
   (->MongoRepositoryComponent {}))
